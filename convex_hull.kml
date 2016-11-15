@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+<Style id="transRedPoly">
+  <LineStyle>
+    <width>2.5</width>
+	<color>cc1447ff</color>
+  </LineStyle>
+</Style>
+
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288387,34.0311826</coordinates></Point>
+</Placemark>
+<Placemark><name>Watt Way</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2876383,34.0205721</coordinates></Point>
+</Placemark>
+<Placemark><name>Brittingham Field</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287311,34.0223519</coordinates></Point>
+</Placemark>
+<Placemark><name>Dedeaux Stadium</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2885265,34.0230628</coordinates></Point>
+</Placemark>
+<Placemark><name>Engemann Centre</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289418,34.025121</coordinates></Point>
+</Placemark>
+<Placemark><name>Cromwell field</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2881922,34.0216336</coordinates></Point>
+</Placemark>
+<Placemark><name>Sol Price School</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2836918,34.0193639</coordinates></Point>
+</Placemark>
+<Placemark><name>S Vermont Ave</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2923786,34.0189075</coordinates></Point>
+</Placemark>
+<Placemark><name>Bill Mills Manor</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2925717,34.0200813</coordinates></Point>
+</Placemark>
+<Placemark><name>Manas</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2911207,34.0284488</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Polygon 1</name>
+<styleUrl>#transRedPoly</styleUrl>
+<Polygon>
+<outerBoundaryIs>
+    <LinearRing>
+      <coordinates>
+		 -118.292379,34.018907,100
+		 -118.292572,34.020081,100
+		 -118.291121,34.028449,100
+		 -118.288387,34.031183,100
+		 -118.283692,34.019364,100
+		 -118.292379,34.018907,100
+      </coordinates>
+    </LinearRing>
+  </outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Document></kml>

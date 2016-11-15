@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Style id="transBluePoly">
+  <LineStyle>
+    <width>1.5</width>
+	<color>ff0000</color>
+  </LineStyle>
+  <PolyStyle>
+    <color>7dff0000</color>
+  </PolyStyle>
+</Style>
+<Style id="transRedPoly">
+  <LineStyle>
+    <width>1.5</width>
+	<color>1447ff</color>
+  </LineStyle>
+  <PolyStyle>
+    <color>cc1447ff</color>
+  </PolyStyle>
+</Style>
+
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288387,34.0311826</coordinates></Point>
+</Placemark>
+<Placemark><name>Watt Way</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2876383,34.0205721</coordinates></Point>
+</Placemark>
+<Placemark><name>Brittingham Field</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287311,34.0223519</coordinates></Point>
+</Placemark>
+<Placemark><name>Dedeaux Stadium</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2885265,34.0230628</coordinates></Point>
+</Placemark>
+<Placemark><name>Engemann Centre</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289418,34.025121</coordinates></Point>
+</Placemark>
+<Placemark><name>Cromwell field</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2881922,34.0216336</coordinates></Point>
+</Placemark>
+<Placemark><name>Sol Price School</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2836918,34.0193639</coordinates></Point>
+</Placemark>
+<Placemark><name>S Vermont Ave</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2923786,34.0189075</coordinates></Point>
+</Placemark>
+<Placemark><name>Bill Mills Manor</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2925717,34.0200813</coordinates></Point>
+</Placemark>
+<Placemark><name>Manas</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2911207,34.0284488</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Polygon 1</name>
+<styleUrl>#transBluePoly</styleUrl>
+<Polygon>
+  <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+  <outerBoundaryIs>
+    <LinearRing>
+      <coordinates>
+		-118.292379,34.018907,17
+		-118.29257,34.020081,17
+		-118.291121,34.028449,17
+		-118.288387,34.031183,17
+		-118.287638,34.020572,17
+		-118.292379,34.018907,17
+      </coordinates>
+    </LinearRing>
+  </outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark>
+<name>Polygon 2</name>
+<styleUrl>#transRedPoly</styleUrl>
+<Polygon>
+ <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+  <outerBoundaryIs>
+    <LinearRing>
+      <coordinates>
+		-118.283692,34.019364,17
+		-118.288192,34.021634,17
+		-118.289418,34.025121,17
+		-118.283692,34.019364,17
+      </coordinates>
+    </LinearRing>
+  </outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Document></kml>
